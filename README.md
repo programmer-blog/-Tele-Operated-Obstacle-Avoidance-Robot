@@ -1,9 +1,9 @@
 
 # TeleOperated Obstacle Avoidance Robot
 
-##### This is a student project focusing on developing a system that prevents manually controlled robots from colliding with solid obstacles. 
-##### This project focused on using innovative technology and software to create a more intelligent, responsive, and safer teleoperated robotic system. 
-##### This project makes use of the turtlebot 3 
+###### This is a student project focusing on developing a system that prevents manually controlled robots from colliding with solid obstacles. 
+###### This project focused on using innovative technology and software to create a more intelligent, responsive, and safer teleoperated robotic system. 
+###### This project makes use of the turtlebot 3 
 
 ### Instructions to execute the code
 
@@ -14,20 +14,21 @@
 3.Run command `Sudo apt update`
 
 4. Run the commadn `Apt-cache policy | grep universe`
-   Run the commandto add repository `sudo apt update && sudo apt install curl -y 
-   sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg`
 
-5. Add to sources list:
+   Run the commandto add repository
+   `sudo apt update && sudo apt install curl -y sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg`
+
+6. Add to sources list:
    `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null`
-6. Install ROS2 OS using the comamnd: `install ros2`
+7. Install ROS2 OS using the comamnd: `install ros2`
 
-7. To update run command `sudo apt update`
+8. To update run command `sudo apt update`
 
-8. Upgrade `sudo apt upgrade`
+9. Upgrade `sudo apt upgrade`
 
-9. Finally run the command: `sudo apt install ros-humble-desktop`
+10. Finally run the command: `sudo apt install ros-humble-desktop`
 
-10. setup up the env 
+11. setup up the env 
    #### Replace ".bash" with your shell if you're not using bash
    #### Possible values are: setup.bash, setup.sh, setup.zsh
    `source /opt/ros/humble/setup.bash`
